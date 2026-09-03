@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>608 Flores | Arte Floral para Momentos Extraordinários</title>
+  <meta name="description"
+    content="608 Flores — vitrine digital de arranjos exclusivos e composições florais de alto padrão. Consulte disponibilidade pelo WhatsApp.">
+
+  <!-- Google Fonts: Playfair Display (títulos) + Lato (texto corrido) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Lato:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#top" class="logo">608 <span>FLORES</span></a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#top">Home</a>
+        <a href="#colecoes">Coleções</a>
+        <a href="#historia">Nossa História</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-icons">
+        <button class="icon-btn" aria-label="Buscar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="11" cy="11" r="7" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+        <a href="https://wa.me/6133570377" class="icon-btn whatsapp-btn" aria-label="Falar no WhatsApp" target="_blank"
+          rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.42a9.9 9.9 0 0 0 4.62 1.15h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.79 14.06c-.24.68-1.4 1.3-1.93 1.37-.5.07-1.03.1-3.28-.68-2.75-.96-4.51-3.72-4.65-3.9-.14-.18-1.1-1.46-1.1-2.78 0-1.32.7-1.97.95-2.24.24-.27.53-.34.71-.34h.5c.16 0 .38-.03.58.44.24.56.8 1.94.87 2.08.07.14.11.3.02.48-.09.18-.14.29-.28.45-.14.16-.29.35-.42.47-.14.14-.28.28-.12.55.16.27.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.23 1.38.27.14.43.12.58-.07.16-.19.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.55.73 1.82.86.27.14.44.2.51.32.07.13.07.7-.17 1.38Z" />
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-content">
+      <p class="hero-kicker">Boutique floral desde 608</p>
+      <h1>A arte floral que transforma momentos</h1>
+      <p class="hero-sub">Arranjos exclusivos, feitos à mão, para celebrar o extraordinário — do "sim" ao jantar mais
+        silencioso de uma terça-feira.</p>
+      <a href="#colecoes" class="btn btn-primary">Ver coleção completa</a>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-bloom bloom-1"></div>
+      <div class="hero-bloom bloom-2"></div>
+      <div class="hero-bloom bloom-3"></div>
+    </div>
+  </section>
+
+  <!-- ============ COLEÇÕES / PRODUTOS ============ -->
+  <section class="products" id="colecoes">
+    <div class="section-heading">
+      <h2>Coleções em destaque</h2>
+      <p>Cada composição é montada na hora, com flores selecionadas por safra e cor.</p>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+      <!-- Os 12 cards de produto abaixo compartilham a mesma estrutura,
+           cada um com um gradiente exclusivo definido em style.css -->
+
+      <article class="product-card">
+        <div class="product-image grad-1"></div>
+        <div class="product-body">
+          <h3>Buquê Serenidade</h3>
+          <p>Rosas cor de pêssego, ranúnculos e eucalipto em composição solta e natural.</p>
+          <div class="product-footer">
+            <span class="price">R$ 310</span>
+            <button class="btn-whatsapp" data-product="Buquê Serenidade">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-2"></div>
+        <div class="product-body">
+          <h3>Arranjo Romance</h3>
+          <p>Peônias e rosas em tons de rosa antigo, com folhagem prateada.</p>
+          <div class="product-footer">
+            <span class="price">R$ 420</span>
+            <button class="btn-whatsapp" data-product="Arranjo Romance">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-3"></div>
+        <div class="product-body">
+          <h3>Coleção Alma Branca</h3>
+          <p>Brancos puros — lísias, rosas e astromélias — para cerimônias intimistas.</p>
+          <div class="product-footer">
+            <span class="price">R$ 380</span>
+            <button class="btn-whatsapp" data-product="Coleção Alma Branca">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-4"></div>
+        <div class="product-body">
+          <h3>Ramalhete Eucalipto &amp; Rosa</h3>
+          <p>Um clássico atemporal: rosas vermelhas profundas emolduradas por eucalipto fresco.</p>
+          <div class="product-footer">
+            <span class="price">R$ 350</span>
+            <button class="btn-whatsapp" data-product="Ramalhete Eucalipto & Rosa">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-5"></div>
+        <div class="product-body">
+          <h3>Composição Jardim Secreto</h3>
+          <p>Flores de campo, ramos e texturas variadas, como um jardim colhido pela manhã.</p>
+          <div class="product-footer">
+            <span class="price">R$ 460</span>
+            <button class="btn-whatsapp" data-product="Composição Jardim Secreto">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-6"></div>
+        <div class="product-body">
+          <h3>Buquê Noiva Clássica</h3>
+          <p>Cascata de rosas brancas e folhagens nobres, para o dia mais importante.</p>
+          <div class="product-footer">
+            <span class="price">R$ 590</span>
+            <button class="btn-whatsapp" data-product="Buquê Noiva Clássica">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-7"></div>
+        <div class="product-body">
+          <h3>Arranjo Mesa Toscana</h3>
+          <p>Baixo e alongado, com oliveiras e flores em tons terrosos — ideal para mesas longas.</p>
+          <div class="product-footer">
+            <span class="price">R$ 340</span>
+            <button class="btn-whatsapp" data-product="Arranjo Mesa Toscana">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-8"></div>
+        <div class="product-body">
+          <h3>Centro de Mesa Peônias</h3>
+          <p>Peônias fartas em tigela cerâmica, para jantares e eventos corporativos.</p>
+          <div class="product-footer">
+            <span class="price">R$ 480</span>
+            <button class="btn-whatsapp" data-product="Centro de Mesa Peônias">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-9"></div>
+        <div class="product-body">
+          <h3>Buquê Outono Dourado</h3>
+          <p>Girassóis, crisântemos e folhas secas em paleta quente e acolhedora.</p>
+          <div class="product-footer">
+            <span class="price">R$ 330</span>
+            <button class="btn-whatsapp" data-product="Buquê Outono Dourado">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-10"></div>
+        <div class="product-body">
+          <h3>Coleção Aniversário Rosé</h3>
+          <p>Tons rosé e dourado, leve e festivo, para celebrar mais um ano de vida.</p>
+          <div class="product-footer">
+            <span class="price">R$ 290</span>
+            <button class="btn-whatsapp" data-product="Coleção Aniversário Rosé">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-11"></div>
+        <div class="product-body">
+          <h3>Arranjo Boas-Vindas</h3>
+          <p>Composição compacta e perfumada, pensada para recepções e escritórios.</p>
+          <div class="product-footer">
+            <span class="price">R$ 260</span>
+            <button class="btn-whatsapp" data-product="Arranjo Boas-Vindas">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image grad-12"></div>
+        <div class="product-body">
+          <h3>Composição Suite Presidencial</h3>
+          <p>Grandiosa e imponente, com orquídeas e rosas nobres para eventos de alto padrão.</p>
+          <div class="product-footer">
+            <span class="price">R$ 650</span>
+            <button class="btn-whatsapp" data-product="Composição Suite Presidencial">Consultar disponibilidade</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ AVALIAÇÕES ============ -->
+  <section class="reviews" id="avaliacoes">
+    <div class="section-heading">
+      <h2>Quem já viveu a experiência 608</h2>
+      <p>Histórias de clientes que confiaram seus momentos mais especiais às nossas flores.</p>
+    </div>
+
+    <div class="reviews-grid">
+      <article class="review-card">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <p class="review-text">"O buquê da minha noiva chegou impecável, exatamente como conversamos. A equipe entendeu
+          o estilo que eu queria sem que eu precisasse explicar duas vezes."</p>
+        <div class="review-author">
+          <span class="author-name">Marina Costa</span>
+          <span class="author-tag">Cliente em Brasília</span>
+        </div>
+        <a href="#" class="review-link">Ver avaliação no Google Maps</a>
+      </article>
+
+      <article class="review-card">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <p class="review-text">"Contratei a 608 Flores para decorar um jantar corporativo e o resultado foi elogiado por
+          todos os convidados. Atendimento atencioso do início ao fim."</p>
+        <div class="review-author">
+          <span class="author-name">Rafael Andrade</span>
+          <span class="author-tag">Evento corporativo</span>
+        </div>
+        <a href="#" class="review-link">Ver avaliação no Google Maps</a>
+      </article>
+
+      <article class="review-card">
+        <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+        <p class="review-text">"Peço arranjos com frequência para presentear minha mãe e nunca fui decepcionada. As
+          flores duram, chegam frescas e a embalagem é linda."</p>
+        <div class="review-author">
+          <span class="author-name">Camila Ribeiro</span>
+          <span class="author-tag">Cliente recorrente</span>
+        </div>
+        <a href="#" class="review-link">Ver avaliação no Google Maps</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ NOSSA HISTÓRIA ============ -->
+  <section class="our-story" id="historia">
+    <div class="story-inner">
+      <div class="story-visual grad-6" aria-hidden="true"></div>
+      <div class="story-content">
+        <p class="hero-kicker">Nossa história</p>
+        <h2>Quem somos</h2>
+        <p>A 608 Flores nasceu do profundo respeito pela natureza e do desejo de traduzir os mais belos sentimentos em
+          cores, aromas e texturas. Mais do que vender plantas, nosso maior propósito é ajudar você a conectar-se com
+          quem ama e a eternizar momentos especiais.</p>
+        <p>Há anos entregando sorrisos em formato de buquês e vasos, nossa equipe de floristas cuida de cada muda e
+          arranjo de forma artesanal. Garantimos que apenas as flores mais frescas, vibrantes e perfeitas cheguem até as
+          suas mãos.</p>
+        <p>Temos orgulho de fazer parte da comunidade local! Estamos estrategicamente localizados na Quadra QR 608, no
+          coração de Samambaia Norte, Brasília - DF. Com um espaço acolhedor e de fácil acesso, atendemos toda a região
+          oferecendo praticidade, dedicação e um atendimento sempre muito próximo e humano.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-brand">
+        <p class="logo footer-logo">608 <span>FLORES</span></p>
+        <p>Vitrine digital de floricultura, unindo técnica de floricultura clássica a um olhar contemporâneo.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#colecoes">Coleções</a></li>
+          <li><a href="#historia">Nossa História</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" id="contato">
+        <h4>Contato</h4>
+        <ul>
+          <li>(61) 3357-0377</li>
+          <li>contato@608flores.com.br</li>
+          <li>Brasília — DF</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-instagram">
+        <h4>Instagram</h4>
+        <div class="insta-grid">
+          <div class="insta-thumb grad-3"></div>
+          <div class="insta-thumb grad-6"></div>
+          <div class="insta-thumb grad-9"></div>
+          <div class="insta-thumb grad-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 608 Flores. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
