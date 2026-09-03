@@ -29,6 +29,7 @@
         <a href="#top">Home</a>
         <a href="#colecoes">Coleções</a>
         <a href="#historia">Nossa História</a>
+        <a href="#localizacao">Localização</a>
         <a href="#contato">Contato</a>
       </nav>
 
@@ -62,11 +63,7 @@
         silencioso de uma terça-feira.</p>
       <a href="#colecoes" class="btn btn-primary">Ver coleção completa</a>
     </div>
-    <div class="hero-visual" aria-hidden="true">
-      <div class="hero-bloom bloom-1"></div>
-      <div class="hero-bloom bloom-2"></div>
-      <div class="hero-bloom bloom-3"></div>
-    </div>
+    <!-- As divs de bloom foram removidas, pois a folha em CSS agora faz o papel do visual principal -->
   </section>
 
   <!-- ============ COLEÇÕES / PRODUTOS ============ -->
@@ -77,8 +74,6 @@
     </div>
 
     <div class="products-grid" id="productsGrid">
-      <!-- Os 12 cards de produto abaixo compartilham a mesma estrutura,
-           cada um com um gradiente exclusivo definido em style.css -->
 
       <article class="product-card">
         <div class="product-image grad-1"></div>
@@ -271,9 +266,12 @@
   </section>
 
   <!-- ============ NOSSA HISTÓRIA ============ -->
+<!-- ============ NOSSA HISTÓRIA ============ -->
   <section class="our-story" id="historia">
     <div class="story-inner">
+      <!-- ADICIONE ESTA LINHA ABAIXO -->
       <div class="story-visual grad-6" aria-hidden="true"></div>
+      
       <div class="story-content">
         <p class="hero-kicker">Nossa história</p>
         <h2>Quem somos</h2>
@@ -286,6 +284,29 @@
         <p>Temos orgulho de fazer parte da comunidade local! Estamos estrategicamente localizados na Quadra QR 608, no
           coração de Samambaia Norte, Brasília - DF. Com um espaço acolhedor e de fácil acesso, atendemos toda a região
           oferecendo praticidade, dedicação e um atendimento sempre muito próximo e humano.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCALIZAÇÃO ============ -->
+  <section class="location" id="localizacao">
+    <div class="location-inner">
+      <div class="location-visual">
+        <img src="/src/images/fachada.webp" alt="Fachada da floricultura 608 Flores" class="fachada-img">
+      </div>
+
+      <div class="location-content">
+        <p class="hero-kicker" style="color: var(--wine);">Venha nos visitar</p>
+        <h2>Nossa Loja</h2>
+        <p>A 608 Flores está de portas abertas na Quadra QR 608, no coração de Samambaia Norte, Brasília - DF.
+          Preparamos um espaço acolhedor e perfumado para receber você.</p>
+        <p>Nossa fachada possui um letreiro em destaque e o ambiente externo já é cercado pelo frescor das nossas
+          plantas. Use o mapa abaixo para traçar a melhor rota e venha tomar um café conosco enquanto escolhe seu
+          arranjo ideal!</p>
+        <a href="https://maps.app.goo.gl/rqxx9NCRyuum2HYPA" target="_blank" rel="noopener noreferrer"
+          class="btn btn-primary map-btn">
+          Abrir no Google Maps
+        </a>
       </div>
     </div>
   </section>
@@ -304,6 +325,7 @@
           <li><a href="#top">Home</a></li>
           <li><a href="#colecoes">Coleções</a></li>
           <li><a href="#historia">Nossa História</a></li>
+          <li><a href="#localizacao">Localização</a></li>
         </ul>
       </div>
 
