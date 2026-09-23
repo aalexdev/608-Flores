@@ -211,7 +211,7 @@ button:focus-visible {
   padding: 160px 20px;
   overflow: hidden;
   background-color: var(--bg);
-  background-image: url('/images/fundo.png');
+  background-image: url('https://github.com/aalexdev/608-Flores/blob/main/images/fundo.png?raw=true');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
