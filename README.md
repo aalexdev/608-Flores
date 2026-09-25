@@ -2,10 +2,7 @@
 
 Um front-end responsivo e sofisticado desenvolvido para a boutique floral 608 Flores. O projeto funciona como um catálogo digital de alto padrão que foca no atendimento humanizado: em vez de um checkout tradicional, o site utiliza JavaScript para capturar o arranjo selecionado e redirecionar o cliente para o WhatsApp com uma mensagem de compra pré-preenchida.
 
-
-# Veja o site aqui!
-
-https://aalexdev.github.io/608-Flores/
+# **[Veja o site aqui!](https://aalexdev.github.io/608-Flores/)**
 
 
 ## Funcionalidades
